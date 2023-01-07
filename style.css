@@ -107,3 +107,44 @@ li {
   width: 100px;
   border: 1px solid black;
 }
+
+/* Section 2-------------------------------------------------- */
+.section2 {
+  color: #224762;
+  margin-top: 1rem;
+  /* border: 1px solid red; */
+}
+.section2_heading {
+  display: flex;
+  justify-content: center;
+  padding: 2rem;
+  /* border: 1px solid green; */
+}
+.section2-container {
+  display: flex;
+  justify-content: space-around;
+  /* border: 1px solid tomato; */
+}
+.plan1 {
+  width: 400px;
+  padding: 1rem;
+  background: #fff;
+  /* border: 1px solid gold; */
+}
+.plan1-img,
+.plan2-img,
+.plan3-img {
+  width: 365px;
+}
+.plan2 {
+  width: 400px;
+  padding: 1rem;
+  background: #fff;
+  /* border: 1px solid gold; */
+}
+.plan3 {
+  width: 400px;
+  padding: 1rem;
+  background: #fff;
+  /* border: 1px solid gold; */
+}
