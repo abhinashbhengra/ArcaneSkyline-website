@@ -6,6 +6,8 @@
 body {
   background-color: #f6f7f9;
 }
+
+/* Navigation----------------------------------------------------- */
 nav {
   display: flex;
   justify-content: space-between;
@@ -22,7 +24,7 @@ nav {
 li {
   padding-right: 4rem;
 }
-
+/* Hero Section------------------------------------------------------ */
 .hero-section {
   width: 100%;
 
@@ -43,4 +45,65 @@ li {
 .image-hero {
   width: 30%;
   /* border: 1px solid red; */
+}
+
+/* Section 1-------------------------------------------------- */
+.section1 {
+  color: #224762;
+  /* border: 1px solid red; */
+}
+.section1_heading {
+  display: flex;
+  justify-content: center;
+  padding: 2rem;
+  /* border: 1px solid green; */
+}
+.section1-container {
+  display: flex;
+  justify-content: space-around;
+  /* border: 1px solid tomato; */
+}
+.architecture {
+  width: 300px;
+  padding: 1rem;
+  background: #fff;
+  /* border: 1px solid gold; */
+}
+.planning {
+  width: 300px;
+  padding: 1rem;
+  background: #fff;
+  /* border: 1px solid gold; */
+}
+.decore {
+  width: 300px;
+  padding: 1rem;
+  background: #fff;
+  /* border: 1px solid gold; */
+}
+.development {
+  width: 300px;
+  padding: 1rem;
+  background: #fff;
+  /* border: 1px solid gold; */
+}
+/* section1 all serial */
+.serial {
+  padding: 0.5rem;
+}
+/* section1 all heading */
+.heading {
+  padding: 0.5rem;
+  font-weight: bold;
+}
+/* section1 all desc */
+.desc {
+  padding: 0.5rem;
+}
+/* section1 all button */
+.readBtn {
+  padding: 0.5rem;
+  margin-left: 8px;
+  width: 100px;
+  border: 1px solid black;
 }
