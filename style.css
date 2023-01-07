@@ -5,6 +5,8 @@
 }
 body {
   background-color: #f6f7f9;
+  width: 100%;
+  /* border: 5px solid purple; */
 }
 
 /* Navigation----------------------------------------------------- */
@@ -207,11 +209,67 @@ li {
   /* border: 1px solid red; */
 }
 .space01-img {
+  /* width: 250px; */
   height: 500px;
 }
 .space02-img {
+  /* width: 200px; */
   height: 250px;
 }
 .space03-img {
+  /* width: 200px; */
   height: 250px;
+}
+
+/* contact us----------------------------------------------- */
+.contactus {
+  width: 100%;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* border: 1px solid green; */
+}
+.contact-img {
+  /* width: 30%; */
+  height: 600px;
+  /* border: 1px solid red; */
+}
+.img-contact {
+  height: 600px;
+}
+.contact {
+  display: flex;
+  flex-direction: column;
+  padding: 1rem;
+  margin: 1rem;
+
+  color: #224762;
+
+  /* border: 1px solid red; */
+}
+.contact-heading {
+  padding: 1rem;
+  margin: 1rem;
+}
+.form input {
+  background-color: #ebeff2;
+  padding: 0.8rem;
+  width: 100%;
+
+  border: none;
+}
+.form h3 {
+  padding: 1rem;
+}
+.form textarea {
+  background-color: #ebeff2;
+  width: 100%;
+  padding: 1rem;
+  border: none;
+  outline-style: none;
+}
+.submit {
+  width: 100px;
+  padding: 0.6rem;
 }
