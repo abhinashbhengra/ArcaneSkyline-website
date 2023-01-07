@@ -148,3 +148,70 @@ li {
   background: #fff;
   /* border: 1px solid gold; */
 }
+
+.hero-section {
+  width: 100%;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* border: 1px solid green; */
+}
+.about {
+  width: 50%;
+  padding: 1rem;
+  margin: 1rem;
+
+  color: #224762;
+
+  /* border: 1px solid red; */
+}
+
+/*Section3------------------------------------------------------ */
+.section3 {
+  width: 100%;
+  margin-top: 2rem;
+
+  display: flex;
+  justify-content: center;
+  /* border: 1px solid green; */
+}
+.section3-about {
+  width: 50%;
+  padding: 1rem;
+  margin: 1rem;
+
+  color: #224762;
+
+  /* border: 1px solid red; */
+}
+.section3-image {
+  width: 50%;
+  display: flex;
+  /* border: 1px solid red; */
+}
+.image1 {
+  height: 560px;
+  padding: 0.5rem;
+  /* border: 1px solid red; */
+}
+.image2 {
+  height: 250px;
+  padding: 0.5rem;
+  margin-bottom: 0.5rem;
+  /* border: 1px solid red; */
+}
+.image3 {
+  height: 250px;
+  padding: 0.5rem;
+  /* border: 1px solid red; */
+}
+.space01-img {
+  height: 500px;
+}
+.space02-img {
+  height: 250px;
+}
+.space03-img {
+  height: 250px;
+}
