@@ -276,3 +276,42 @@ li {
   width: 100px;
   padding: 0.6rem;
 }
+
+/* footer---------------------------------------------------- */
+footer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #ebeff2;
+}
+.media {
+  height: 20vh;
+  display: flex;
+  justify-content: space-between;
+}
+.address {
+  width: 400px;
+  padding: 3rem;
+  /* border: 1px solid red; */
+}
+.social {
+  width: 400px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 3rem;
+  /* border: 1px solid red; */
+}
+.social-link {
+  display: flex;
+  /* padding: 1rem; */
+  /* border: 1px solid red; */
+}
+.services {
+  width: 400px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 3rem;
+  /* border: 1px solid red; */
+}
