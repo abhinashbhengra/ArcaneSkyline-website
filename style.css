@@ -23,7 +23,7 @@ body {
   width: 100%;
   margin-top: 4rem;
   display: flex;
-  align-items: center;
+  /* align-items: center; */
   color: #224762;
 }
 .logo img {
@@ -52,7 +52,7 @@ body {
 /* Hero Section------------------------------------------------------ */
 .hero-section {
   width: 100%;
-  margin-top: 5rem;
+  margin-top: 7rem;
   margin-bottom: 10rem;
   display: flex;
   justify-content: center;
@@ -96,43 +96,46 @@ body {
 /* Section 1-------------------------------------------------- */
 .section1 {
   color: #224762;
+  width: 100%;
   margin-top: 3rem;
-  /* border: 1px solid red; */
+  margin-bottom: 5rem;
 }
 .section1_heading {
-  display: flex;
-  justify-content: center;
+  text-align: center;
   padding: 2rem;
-  /* border: 1px solid green; */
 }
 .section1-container {
   display: flex;
-  justify-content: space-around;
-  /* border: 1px solid tomato; */
+  width: 100%;
+  justify-content: space-between;
 }
 .architecture {
-  width: 300px;
+  flex: 1;
   padding: 1rem;
+  margin-left: 0.5rem;
+  margin-right: 0.3rem;
   background: #fff;
-  /* border: 1px solid gold; */
 }
 .planning {
-  width: 300px;
+  flex: 1;
   padding: 1rem;
+  margin-left: 0.3rem;
+  margin-right: 0.3rem;
   background: #fff;
-  /* border: 1px solid gold; */
 }
 .decore {
-  width: 300px;
+  flex: 1;
   padding: 1rem;
+  margin-left: 0.3rem;
+  margin-right: 0.3rem;
   background: #fff;
-  /* border: 1px solid gold; */
 }
 .development {
-  width: 300px;
+  flex: 1;
   padding: 1rem;
+  margin-left: 0.3rem;
+  margin-right: 0.5rem;
   background: #fff;
-  /* border: 1px solid gold; */
 }
 /* section1 all serial */
 .serial {
@@ -151,7 +154,7 @@ body {
 .readBtn {
   padding: 0.5rem;
   margin-left: 8px;
-  width: 100px;
+  width: 120px;
   border: 1px solid black;
 }
 
