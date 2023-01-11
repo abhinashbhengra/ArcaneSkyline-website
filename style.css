@@ -8,7 +8,7 @@
   font-family: "Montserrat", sans-serif;
 }
 body {
-  background-color: #f6f7f9;
+  background-color: #f2f7f2;
 }
 .container {
   width: 100%;
@@ -24,7 +24,7 @@ body {
   margin-top: 4rem;
   display: flex;
   /* align-items: center; */
-  color: #224762;
+  color: #1a1b25;
 }
 .logo img {
   width: 35px;
@@ -40,7 +40,7 @@ body {
 }
 .menu ul li a {
   text-decoration: none;
-  color: #224762;
+  color: #1a1b25;
 }
 .menu ul li a:hover {
   text-decoration: none;
@@ -62,10 +62,10 @@ body {
   flex: 1;
   display: flex;
   flex-direction: column;
-  color: #224762;
   font-family: "Merriweather", serif;
 }
 .hero-section .about {
+  color: #1a1b25;
   font-size: 3.5rem;
 }
 .hero-section button {
@@ -73,7 +73,8 @@ body {
   padding: 15px 0px;
   border: 0px;
   outline: none;
-  background: #ebeff2;
+  background: #d3f9fa;
+  color: #1a1b25;
   transition: width 0.5s;
 }
 .about button img {
@@ -89,13 +90,14 @@ body {
   align-items: center;
   justify-content: space-around;
 }
-.image-hero {
+.image-hero img {
   flex: 1;
+  width: 400px;
 }
 
 /* Section 1-------------------------------------------------- */
 .section1 {
-  color: #224762;
+  color: #1a1b25;
   width: 100%;
   margin-top: 3rem;
   margin-bottom: 5rem;
@@ -109,42 +111,54 @@ body {
   width: 100%;
   justify-content: space-between;
 }
+.section1-container .heading p {
+  font-size: 1rem;
+}
+.line {
+  display: inline-block;
+  background-color: black;
+  margin-left: 0.5rem;
+  width: 60px;
+  height: 3px;
+}
 .architecture {
   flex: 1;
   padding: 1rem;
   margin-left: 0.5rem;
   margin-right: 0.3rem;
-  background: #fff;
+  background: #f8f7ff;
 }
 .planning {
   flex: 1;
   padding: 1rem;
   margin-left: 0.3rem;
   margin-right: 0.3rem;
-  background: #fff;
+  background: #f8f7ff;
 }
 .decore {
   flex: 1;
   padding: 1rem;
   margin-left: 0.3rem;
   margin-right: 0.3rem;
-  background: #fff;
+  background: #f8f7ff;
 }
 .development {
   flex: 1;
   padding: 1rem;
   margin-left: 0.3rem;
   margin-right: 0.5rem;
-  background: #fff;
+  background: #f8f7ff;
 }
 /* section1 all serial */
 .serial {
   padding: 0.5rem;
+  font-size: 1.5rem;
 }
 /* section1 all heading */
 .heading {
   padding: 0.5rem;
-  font-weight: bold;
+  font-size: 1rem;
+  font-weight: bolder;
 }
 /* section1 all desc */
 .desc {
@@ -154,8 +168,26 @@ body {
 .readBtn {
   padding: 0.5rem;
   margin-left: 8px;
-  width: 120px;
-  border: 1px solid black;
+  width: 115px;
+  /* background: #d3deeb; */
+  background: #1a1b25;
+  color: #d3deeb;
+  transition: width 0.5s;
+  text-align: center;
+}
+.readBtn img {
+  color: white;
+  width: 10px;
+  display: none;
+}
+.readBtn:hover img {
+  display: block;
+}
+.readBtn:hover {
+  display: flex;
+  width: 140px;
+  align-items: center;
+  justify-content: space-around;
 }
 
 /* Section 2-------------------------------------------------- */
