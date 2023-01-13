@@ -126,28 +126,28 @@ body {
   padding: 1rem;
   margin-left: 0.5rem;
   margin-right: 0.3rem;
-  background: #f3f3f4;
+  background: #fff;
 }
 .planning {
   flex: 1;
   padding: 1rem;
   margin-left: 0.3rem;
   margin-right: 0.3rem;
-  background: #f3f3f4;
+  background: #fff;
 }
 .decore {
   flex: 1;
   padding: 1rem;
   margin-left: 0.3rem;
   margin-right: 0.3rem;
-  background: #f3f3f4;
+  background: #fff;
 }
 .development {
   flex: 1;
   padding: 1rem;
   margin-left: 0.3rem;
   margin-right: 0.5rem;
-  background: #f3f3f4;
+  background: #fff;
 }
 /* section1 all serial */
 .serial {
