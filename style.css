@@ -193,61 +193,48 @@ body {
 
 /* Section 2-------------------------------------------------- */
 .section2 {
-  color: #224762;
-  margin-top: 1rem;
+  color: #1a1b25;
+  margin-top: 8rem;
   /* border: 1px solid red; */
 }
 .section2_heading {
-  display: flex;
-  justify-content: center;
+  text-align: center;
   padding: 2rem;
   /* border: 1px solid green; */
 }
 .section2-container {
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
   /* border: 1px solid tomato; */
 }
 .plan1 {
-  width: 400px;
+  flex: 1;
   padding: 1rem;
+  margin-left: 0.5rem;
+  margin-right: 0.3rem;
   background: #fff;
   /* border: 1px solid gold; */
 }
 .plan1-img,
 .plan2-img,
 .plan3-img {
-  width: 365px;
+  width: 100%;
 }
 .plan2 {
-  width: 400px;
+  flex: 1;
   padding: 1rem;
+  margin-left: 0.3rem;
+  margin-right: 0.3rem;
   background: #fff;
   /* border: 1px solid gold; */
 }
 .plan3 {
-  width: 400px;
+  flex: 1;
   padding: 1rem;
+  margin-left: 0.3rem;
+  margin-right: 0.5rem;
   background: #fff;
   /* border: 1px solid gold; */
-}
-
-.hero-section {
-  width: 100%;
-
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  /* border: 1px solid green; */
-}
-.about {
-  width: 50%;
-  padding: 1rem;
-  margin: 1rem;
-
-  color: #224762;
-
-  /* border: 1px solid red; */
 }
 
 /*Section3------------------------------------------------------ */
