@@ -8,7 +8,7 @@
   font-family: "Montserrat", sans-serif;
 }
 body {
-  background-color: #f2f7f2;
+  background-color: #f2f2f3;
 }
 .container {
   width: 100%;
@@ -73,8 +73,8 @@ body {
   padding: 15px 0px;
   border: 0px;
   outline: none;
-  background: #d3f9fa;
-  color: #1a1b25;
+  background: #1a1b25;
+  color: #d3deeb;
   transition: width 0.5s;
 }
 .about button img {
