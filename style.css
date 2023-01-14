@@ -71,6 +71,7 @@ body {
 .hero-section button {
   width: 100px;
   padding: 15px 0px;
+  margin-top: 2rem;
   border: 0px;
   outline: none;
   background: #1a1b25;
