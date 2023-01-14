@@ -282,7 +282,7 @@ body {
 }
 .space01-img {
   /* width: 250px; */
-  height: 500px;
+  height: 450px;
 }
 .space02-img {
   /* width: 200px; */
@@ -296,27 +296,25 @@ body {
 /* contact us----------------------------------------------- */
 .contactus {
   width: 100%;
+  margin-top: 4rem;
 
   display: flex;
   justify-content: center;
   align-items: center;
   /* border: 1px solid green; */
 }
-.contact-img {
-  /* width: 30%; */
-  height: 600px;
+.contact-img img {
+  width: 100%;
   /* border: 1px solid red; */
-}
-.img-contact {
-  height: 600px;
 }
 .contact {
   display: flex;
   flex-direction: column;
   padding: 1rem;
-  margin: 1rem;
+  margin-left: 1.5rem;
+  /* margin: 1rem; */
 
-  color: #224762;
+  color: #1a1b25;
 
   /* border: 1px solid red; */
 }
@@ -325,25 +323,33 @@ body {
   margin: 1rem;
 }
 .form input {
-  background-color: #ebeff2;
+  background-color: #fff;
   padding: 0.8rem;
   width: 100%;
 
   border: none;
 }
-.form h3 {
-  padding: 1rem;
+.form h4 {
+  padding: 1rem 1rem 1rem 0rem;
 }
 .form textarea {
-  background-color: #ebeff2;
+  background-color: #fff;
   width: 100%;
   padding: 1rem;
   border: none;
   outline-style: none;
 }
+.form {
+  margin-bottom: 1rem;
+}
 .submit {
   width: 100px;
   padding: 0.6rem;
+  margin-bottom: 1rem;
+  background-color: #1a1b25;
+  color: #ebeff2;
+  cursor: pointer;
+  border: none;
 }
 
 /* footer---------------------------------------------------- */
