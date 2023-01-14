@@ -240,41 +240,45 @@ body {
 /*Section3------------------------------------------------------ */
 .section3 {
   width: 100%;
-  margin-top: 2rem;
+  margin-top: 6rem;
+  color: #1a1b25;
 
-  display: flex;
-  justify-content: center;
   /* border: 1px solid green; */
 }
+.section3-heading {
+  text-align: center;
+  padding: 2rem;
+}
+.section3-info {
+  display: flex;
+  align-items: center;
+}
 .section3-about {
-  width: 50%;
-  padding: 1rem;
-  margin: 1rem;
-
-  color: #224762;
+  flex: 1;
 
   /* border: 1px solid red; */
 }
 .section3-image {
-  width: 50%;
+  flex: 1;
   display: flex;
   /* border: 1px solid red; */
 }
-.image1 {
-  height: 560px;
+.image1 img {
+  width: 100%;
   padding: 0.5rem;
   /* border: 1px solid red; */
 }
-.image2 {
-  height: 250px;
-  padding: 0.5rem;
-  margin-bottom: 0.5rem;
-  /* border: 1px solid red; */
+.imagecol {
+  display: flex;
+  flex-direction: column;
 }
-.image3 {
-  height: 250px;
+.image2 img {
+  width: 100%;
   padding: 0.5rem;
-  /* border: 1px solid red; */
+}
+.image3 img {
+  width: 100%;
+  padding: 0.5rem;
 }
 .space01-img {
   /* width: 250px; */
