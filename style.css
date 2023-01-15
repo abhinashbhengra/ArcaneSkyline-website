@@ -44,7 +44,7 @@ body {
 }
 .menu ul li a:hover {
   text-decoration: none;
-  color: #c0e2f9;
+  color: #95959e;
 }
 .m-logo {
   display: none;
@@ -353,18 +353,15 @@ body {
   border: none;
   outline: none;
 }
+.submit:hover {
+  background-color: #5c5c5f;
+}
 
 /* footer---------------------------------------------------- */
 .media {
   margin-top: 3rem;
   display: flex;
 }
-/* .media {
-  height: 20vh;
-  display: flex;
-  justify-content: space-between;
-  border: 1px solid red;
-} */
 .address {
   flex: 1;
   padding: 3rem;
@@ -386,19 +383,20 @@ body {
 .social-link {
   display: flex;
   text-align: center;
-  /* padding: 1rem; */
-  /* border: 1px solid red; */
 }
 .instagram img {
   width: 25px;
   margin-right: 3rem;
+  cursor: pointer;
 }
 .facebook img {
   width: 25px;
   margin-right: 3rem;
+  cursor: pointer;
 }
 .linkedin img {
   width: 25px;
+  cursor: pointer;
 }
 .services {
   flex: 1;
