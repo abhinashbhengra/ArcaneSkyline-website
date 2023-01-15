@@ -407,6 +407,9 @@ body {
   align-items: center;
   padding: 3rem;
 }
+.service-details {
+  text-align: center;
+}
 .services-heading {
   margin-bottom: 1rem;
 }
