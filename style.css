@@ -79,6 +79,13 @@ body {
   cursor: pointer;
   transition: width 0.5s;
 }
+.about button a {
+  text-decoration: none;
+  color: #d3deeb;
+}
+.about button a:hover {
+  text-decoration: none;
+}
 .about button img {
   width: 10px;
   display: none;
