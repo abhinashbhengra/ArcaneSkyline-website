@@ -1,0 +1,118 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@100;300&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Merriweather:ital@1&display=swap");
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Montserrat", sans-serif;
+}
+body {
+  background-color: #f2f2f3;
+}
+.container {
+  width: 100%;
+  min-height: 100vh;
+  padding-left: 8%;
+  padding-right: 8%;
+  overflow: hidden;
+}
+
+/* Navigation----------------------------------------------------- */
+.navbar {
+  width: 100%;
+  margin-top: 4rem;
+  display: flex;
+  /* align-items: center; */
+  color: #1a1b25;
+}
+.logo img {
+  width: 35px;
+}
+.menu {
+  flex: 1;
+  text-align: right;
+}
+.menu ul li {
+  list-style: none;
+  display: inline-block;
+  margin-right: 1.5rem;
+}
+.menu ul li a {
+  text-decoration: none;
+  color: #1a1b25;
+}
+.menu ul li a:hover {
+  text-decoration: none;
+  color: #95959e;
+}
+.m-logo {
+  display: none;
+}
+
+/* main message --------------------------------------*/
+main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 40vh;
+}
+
+/* footer---------------------------------------------------- */
+.media {
+  margin-top: 3rem;
+  display: flex;
+}
+.address {
+  flex: 1;
+  padding: 3rem;
+  text-align: center;
+}
+.address-heading h4 {
+  margin-bottom: 1rem;
+}
+.social {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 3rem;
+}
+.social-heading {
+  margin-bottom: 1rem;
+}
+.social-link {
+  display: flex;
+  text-align: center;
+}
+.instagram img {
+  width: 25px;
+  margin-right: 3rem;
+  cursor: pointer;
+}
+.facebook img {
+  width: 25px;
+  margin-right: 3rem;
+  cursor: pointer;
+}
+.linkedin img {
+  width: 25px;
+  cursor: pointer;
+}
+.services {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 3rem;
+}
+.service-details {
+  text-align: center;
+}
+.services-heading {
+  margin-bottom: 1rem;
+}
+footer .copyright {
+  text-align: center;
+  margin-bottom: 3rem;
+}
