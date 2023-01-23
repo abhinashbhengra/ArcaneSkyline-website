@@ -50,6 +50,12 @@ body {
   display: none;
 }
 
+/* update message --------------------------------------*/
+.update {
+  display: flex;
+  justify-content: center;
+}
+
 /* footer---------------------------------------------------- */
 .media {
   margin-top: 3rem;
