@@ -50,10 +50,53 @@ body {
   display: none;
 }
 
-/* update message --------------------------------------*/
-.update {
+/* main  --------------------------------------*/
+main {
+  margin-top: 5rem;
+}
+.cards {
   display: flex;
-  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 1rem;
+  margin-bottom: 4rem;
+}
+.cards h3 {
+  padding: 1rem 1rem 0rem 1rem;
+}
+.cards p {
+  padding: 1rem;
+}
+.cards button {
+  margin-bottom: 1rem;
+}
+.cards button {
+  width: 120px;
+  padding: 15px 0px;
+  border: 0px;
+  outline: none;
+  background: #1a1b25;
+  color: #d3deeb;
+  cursor: pointer;
+  transition: width 0.5s;
+}
+.cards button a {
+  text-decoration: none;
+  color: #d3deeb;
+}
+.cards button a:hover {
+  text-decoration: none;
+}
+.cards button img {
+  width: 10px;
+  display: none;
+}
+
+.cards button:hover {
+  width: 140px;
+  background: #484951;
+  align-items: center;
+  justify-content: space-around;
 }
 
 /* footer---------------------------------------------------- */
