@@ -24,7 +24,6 @@ body {
   margin-top: 4rem;
   display: flex;
   justify-content: space-between;
-  /* align-items: center; */
   color: #1a1b25;
 }
 .logo img {
@@ -38,7 +37,6 @@ body {
 }
 .menu ul li {
   list-style: none;
-  /* display: inline-block; */
   margin-right: 1.5rem;
 }
 .menu ul li a {
@@ -137,7 +135,7 @@ body {
 .architecture {
   flex: 1;
   padding: 1rem;
-  margin-left: 0.5rem;
+  margin-left: 0.3rem;
   margin-right: 0.3rem;
   background: #fff;
 }
@@ -446,5 +444,33 @@ footer .copyright {
     padding-right: 0;
     margin-right: 0;
     padding-bottom: 0.6rem;
+  }
+  /* hero section ---*/
+  .hero-section {
+    flex-direction: column-reverse;
+  }
+  .image-hero img {
+    width: 300px;
+  }
+  .hero-section {
+    margin-bottom: 3rem;
+  }
+  .hero-section .about {
+    font-size: 2rem;
+  }
+  .section1-container {
+    display: block;
+  }
+  .architecture {
+    margin-bottom: 0.5rem;
+  }
+  .planning {
+    margin-bottom: 0.5rem;
+  }
+  .decore {
+    margin-bottom: 0.5rem;
+  }
+  .development {
+    margin-bottom: 0.5rem;
   }
 }
