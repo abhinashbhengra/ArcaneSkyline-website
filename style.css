@@ -453,13 +453,31 @@ footer .copyright {
     width: 300px;
   }
   .hero-section {
-    margin-bottom: 3rem;
+    margin-bottom: 5rem;
   }
   .hero-section .about {
     font-size: 2rem;
   }
+  /* section 01-------- */
   .section1-container {
     display: block;
+  }
+  .section1_heading {
+    font-size: 0.9rem;
+  }
+  .serial {
+    font-size: 0.9rem;
+  }
+  .heading {
+    font-size: 0.9rem;
+  }
+  .line {
+    width: 40px;
+    height: 2px;
+  }
+  .desc {
+    font-size: 0.7rem;
+    text-align: justify;
   }
   .architecture {
     margin-bottom: 0.5rem;
@@ -472,5 +490,22 @@ footer .copyright {
   }
   .development {
     margin-bottom: 0.5rem;
+  }
+  .readBtn {
+    font-size: 0.5rem;
+    padding: 0.5rem;
+    margin-left: 8px;
+    width: 80px;
+  }
+  .readBtn img {
+    color: white;
+    width: 5px;
+    display: none;
+  }
+  .readBtn:hover {
+    display: flex;
+    width: 90px;
+    align-items: center;
+    justify-content: space-around;
   }
 }
