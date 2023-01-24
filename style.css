@@ -23,6 +23,7 @@ body {
   width: 100%;
   margin-top: 4rem;
   display: flex;
+  justify-content: space-between;
   /* align-items: center; */
   color: #1a1b25;
 }
@@ -30,12 +31,14 @@ body {
   width: 35px;
 }
 .menu {
-  flex: 1;
-  text-align: right;
+  display: block;
+}
+.menu-list {
+  display: flex;
 }
 .menu ul li {
   list-style: none;
-  display: inline-block;
+  /* display: inline-block; */
   margin-right: 1.5rem;
 }
 .menu ul li a {
@@ -48,6 +51,7 @@ body {
 }
 .m-logo {
   display: none;
+  margin-top: 0.7rem;
 }
 /* Hero Section------------------------------------------------------ */
 .hero-section {
@@ -421,4 +425,26 @@ body {
 footer .copyright {
   text-align: center;
   margin-bottom: 3rem;
+}
+
+@media only screen and (max-width: 768px) {
+  /* For mobile phones: */
+  .m-logo {
+    display: block;
+  }
+  .menu {
+    display: none;
+    margin-top: 3rem;
+    position: absolute;
+    right: 0;
+  }
+  .menu-list {
+    display: flex;
+    flex-direction: column;
+  }
+  .menu-list li {
+    padding-right: 0;
+    margin-right: 0;
+    padding-bottom: 0.6rem;
+  }
 }
