@@ -565,7 +565,17 @@ footer .copyright {
     text-align: justify;
   }
   /* contact us----------- */
+  .contact {
+    padding-left: 0rem;
+  }
+  .contact-heading h2 {
+    font-size: 1.2rem;
+    text-align: center;
+  }
   .contact-img {
     display: none;
+  }
+  .form h4 {
+    font-size: 0.8rem;
   }
 }
