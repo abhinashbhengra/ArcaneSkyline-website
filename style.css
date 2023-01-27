@@ -564,4 +564,8 @@ footer .copyright {
     font-size: 0.9rem;
     text-align: justify;
   }
+  /* contact us----------- */
+  .contact-img {
+    display: none;
+  }
 }
