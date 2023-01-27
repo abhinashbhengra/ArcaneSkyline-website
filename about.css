@@ -283,6 +283,45 @@ footer .copyright {
     font-size: 2rem;
   }
 
+  /* main section------- */
+  h2,
+  h3 {
+    font-size: 1.1rem;
+  }
+  .abt_info1 p {
+    font-size: 1rem;
+  }
+  .abt_info2 p {
+    font-size: 1rem;
+  }
+  .abt_info3 p {
+    font-size: 1rem;
+  }
+  .abt_info4 p {
+    font-size: 1rem;
+  }
+  .abt_info5 p {
+    font-size: 1rem;
+  }
+  .abt_info6 p {
+    font-size: 1rem;
+  }
+  .abt_info1 h3::first-letter {
+    font-size: 1.5rem;
+  }
+  .abt_info2 h3::first-letter {
+    font-size: 1.5rem;
+  }
+  .abt_info3 h3::first-letter {
+    font-size: 1.5rem;
+  }
+  .abt_info6 h3::first-letter {
+    font-size: 1.5rem;
+  }
+  /* p {
+    font-size: 0.1rem;
+  } */
+
   .media {
     display: block;
     font-size: 0.9rem;
