@@ -50,10 +50,23 @@ body {
   display: none;
 }
 
-/* update message --------------------------------------*/
-.update {
+/* main --------------------------------------*/
+main {
+  margin-top: 5rem;
+}
+.cards {
   display: flex;
-  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  text-align: justify;
+  margin-top: 1rem;
+  margin-bottom: 4rem;
+}
+.cards h3 {
+  padding: 1rem 1rem 0rem 1rem;
+}
+.cards p {
+  padding: 1rem;
 }
 
 /* footer---------------------------------------------------- */
