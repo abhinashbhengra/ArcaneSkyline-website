@@ -23,7 +23,7 @@ body {
   width: 100%;
   margin-top: 4rem;
   display: flex;
-  /* align-items: center; */
+  justify-content: space-between;
   color: #1a1b25;
 }
 .logo img {
@@ -156,4 +156,55 @@ main {
 footer .copyright {
   text-align: center;
   margin-bottom: 3rem;
+}
+
+@media only screen and (max-width: 768px) {
+  /* For mobile phones: */
+  .m-logo {
+    display: block;
+  }
+  .menu {
+    display: none;
+    margin-top: 3rem;
+    position: absolute;
+    right: 0;
+  }
+  .menu-list {
+    display: flex;
+    flex-direction: column;
+  }
+  .menu-list li {
+    padding-right: 0;
+    margin-right: 0;
+    padding-bottom: 0.6rem;
+  }
+  /* hero section ---*/
+  .hero-section {
+    flex-direction: column-reverse;
+  }
+  .image-hero img {
+    width: 300px;
+  }
+  .hero-section {
+    margin-bottom: 5rem;
+  }
+  .hero-section .about {
+    font-size: 2rem;
+  }
+
+  /* main section------- */
+  h3 {
+    font-size: 1rem;
+  }
+  p {
+    font-size: 0.9rem;
+  }
+  .cards button {
+    width: 80px;
+    font-size: 0.6rem;
+  }
+  .media {
+    display: block;
+    font-size: 0.9rem;
+  }
 }
