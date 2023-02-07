@@ -30,13 +30,12 @@ body {
   width: 35px;
 }
 .menu {
-  display: block;
-}
-.menu-list {
-  display: flex;
+  flex: 1;
+  text-align: right;
 }
 .menu ul li {
   list-style: none;
+  display: inline-block;
   margin-right: 1.5rem;
 }
 .menu ul li a {
@@ -45,11 +44,10 @@ body {
 }
 .menu ul li a:hover {
   text-decoration: none;
-  color: #1a1b25;
+  color: #95959e;
 }
 .m-logo {
   display: none;
-  margin-top: 0.4rem;
 }
 /* Hero Section------------------------------------------------------ */
 .hero-section {
